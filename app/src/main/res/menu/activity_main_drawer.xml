@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Alunos"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Alunos" />
+        <item
+            android:id="@+id/Biografias"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Biografias" />
+
+
+    </group>
+
+
+
+
+
+
+
+    <item android:title="atributos">
+        <menu>
+            <group >
+                <item
+                    android:id="@+id/Idade"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Idade" />
+                <item
+                    android:id="@+id/jogoFirebaseIdade"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Jogo Idade Firebase" />
+
+                <item
+                    android:id="@+id/jogoTime"
+                    android:icon="@drawable/ic_launcher_foreground"
+                    android:title="Jogo dos times" />
+
+                <item
+                    android:id="@+id/Coracao2"
+                    android:icon="@drawable/ic_launcher_foreground"
+                    android:title="Coracao 2" />
+
+            </group>
+
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

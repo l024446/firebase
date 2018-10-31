@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".IdadeFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/jogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qual_a_idade_deste_aluno"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nomejogo"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:text="@string/leonardo_martins_medeiros"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/fotojogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/leonardo_medeiros"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:style="@style/AppTheme" />
+
+    <TextView
+        android:id="@+id/tentativas"
+        android:layout_width="377dp"
+        android:layout_height="61dp"
+        android:text="@string/tentativas_tentativas"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:columnCount="3"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/dezenove"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="@string/_19" />
+
+        <Button
+            android:id="@+id/vinte"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="@string/_20" />
+
+        <Button
+            android:id="@+id/vinteum"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:text="@string/_21" />
+
+        <Button
+            android:id="@+id/vintedois"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="@string/_22" />
+
+        <Button
+            android:id="@+id/vintetres"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="@string/_23" />
+
+        <Button
+            android:id="@+id/vintequatro"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:text="@string/_24" />
+
+        <Button
+            android:id="@+id/vintecinco"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="@string/_25" />
+
+        <Button
+            android:id="@+id/vinteseis"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:text="@string/_26" />
+
+        <Button
+            android:id="@+id/vintesete"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:text="@string/_27" />
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/resposta"
+        android:layout_width="377dp"
+        android:layout_height="61dp"
+        android:text="@string/tente"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

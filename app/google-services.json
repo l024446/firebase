@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "81056066126",
+    "firebase_url": "https://l024446g173341aula11.firebaseio.com",
+    "project_id": "l024446g173341aula11",
+    "storage_bucket": "l024446g173341aula11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81056066126:android:29dfa4a51ae93cba",
+        "android_client_info": {
+          "package_name": "br.unicamp.ft.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81056066126-no6v50b4ldbj478fl36b8pci16ku8tnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB70wx23xiSmcKbvcKRkZVb6pCusGNHj0A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
